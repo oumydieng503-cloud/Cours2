@@ -15,4 +15,13 @@ jobs:
         run: 
           echo "Demarage du pipeline d'integration continue"
           echo "STEP1=$STEP1"
+      - name: Etape 2 - Recuperation du code
+        run: 
+          echo "Récuperation du code"
+          echo "vars {{STEP22=$STEP22}}"
+
+
+
+
+
 
