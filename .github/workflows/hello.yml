@@ -18,7 +18,7 @@ jobs:
       - name: Etape 2 - Recuperation du code
         run: 
           echo "Récuperation du code"
-          echo "vars {{STEP22=$STEP22}}"
+          echo "STEP22= ${{vars.STEP22}}"
 
 
 
