@@ -12,7 +12,7 @@ jobs:
       STEP1: "Le code vient d'être poussé sur Github"
     steps:
       - name: Etape 1 - initialisation
-        run:
-          $echo "Demarage du pipeline d'integration continue"
+        run: 
+          echo "Demarage du pipeline d'integration continue"
           echo "STEP1=$STEP1"
 
