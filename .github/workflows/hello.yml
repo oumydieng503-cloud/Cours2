@@ -14,5 +14,9 @@ jobs:
       - name: Etape 1 - initialisation
        run:
          echo "Demarage du pipeline d'integration continue"
-         echo ""
+         echo "STEP1=$STEP1"
+      - name: Etape 2 - Recuperation du code
+      run: |
+      echo"Recuperation du code source"
+      echo"STEP=${{vars.STEP}}"
   
